@@ -1,5 +1,5 @@
 _base_ = [
-    '../_base_/datasets/coco_detection.py', '../_base_/default_runtime.py'
+    '../_insun_/datasets/shanhuo_detection.py', '../_insun_/shanhuo_runtime.py'
 ]
 model = dict(
     type='DDQDETR',
